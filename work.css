@@ -21,7 +21,7 @@
     justify-content: space-around;
 }
 .col-42 img{
-max-width: 250px;
+max-width: 200px;
 height: 200px;
 border-radius: 0px;
 transition: 0.3s;
