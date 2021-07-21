@@ -34,7 +34,7 @@ margin-top: 100px;
     justify-content: space-around;
 }
 .col-41{
-    flex-basis: 25%;
+    flex-basis: 50%;
     padding: 10px;
     min-width: 150px;
     margin-bottom: 50px;
@@ -167,10 +167,12 @@ margin-top: 100px;
       }
       @media only screen and (max-width: 600px) {
 .row1{
-  text-align: center;
+ 
+  flex-direction: column;
 }
         .col-41{
-            flex-basis: 100%;
+          flex-basis: 100%;
+         padding-left: -10px;
         }
         .title1{
             font-size: 50px;
